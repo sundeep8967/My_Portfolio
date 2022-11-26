@@ -1,6 +1,6 @@
 import React,{useEffect} from "react"
 import "./Home.css"
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 
 const Home = () => {
 
@@ -39,7 +39,7 @@ const Home = () => {
             <h2 className="typo">
               
               <span>
-                <Typewriter
+                {/* <Typewriter
                   options={{
                     strings: ['Full Stack Developer'],
                       // , 'Frontend Developer', 'Full Stack Developer'],
@@ -47,7 +47,8 @@ const Home = () => {
                     loop: true,
                   }}
                   
-                />
+                /> */}
+                Full Stack Developer
               </span>
             </h2>
 
